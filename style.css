@@ -1,0 +1,42 @@
+
+.first,
+.main {
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+
+}
+
+.first input,
+.main input,
+.first button {
+    margin-bottom: 10px;
+    /* Adjust the value according to your spacing preference */
+}
+
+#msgContainer {
+    margin-top: 40px;
+    margin-left: 30px;
+    /* margin: 0px 60px; */
+    padding: 0px 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    height: 70vh;
+    width: 90vw;
+}
+
+header {
+    padding-left: 13px;
+    position: absolute;
+    font-size: xx-large;
+    margin-top: -600px;
+}
+
+#sendMessageBtn {
+    margin-left: -20px;
+} 
